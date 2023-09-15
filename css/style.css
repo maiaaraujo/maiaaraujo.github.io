@@ -105,14 +105,17 @@ h2 {
     color: #e9c46a;
 }
 
+.list-header {
+    font-weight: bold;
+}
 
 .list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 30px; /* Adicione um espaçamento entre os itens */
+    gap: 20px; /* Adicione um espaçamento entre os itens */
     max-width: 500px; /* Largura máxima para evitar que os itens se espalhem demais */
-    padding: 20px; 
+    
 }
 
 .list li {
