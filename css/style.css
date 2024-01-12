@@ -95,7 +95,45 @@ h1 {
     background-color: #2a9d8f;
 }
 
-.newSection-description {
+.image-newSection {
+   padding-top: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.skill-me {
+    width: 250px; 
+    height: 250px;
+    image-rendering: pixelated;
+}
+
+.image-skill{
+    width: 100px;
+    height: 90px;
+}
+
+.skills-description {
+    width: 50%;
+    font-size: 30px;
+    color: #fff;
+   
+}
+
+.skills-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    gap: 20px; 
+}
+.list-skill {
+    text-align: center;
+}
+
+.image-skill {
+    max-width: 100%;
+}
+.newSection-description{
     width: 50%;
     font-size: 30px;
     color: #fff;
