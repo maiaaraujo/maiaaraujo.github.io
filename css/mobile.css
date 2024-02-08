@@ -5,6 +5,14 @@
         width: 100%;
        
       }
+
+    div>ul{
+        font-size: 20px;
+    }
+
+    div>h2{
+       align-items: center;
+    }  
       
     .container {
         width: 100%;
