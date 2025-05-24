@@ -7,7 +7,7 @@
       }
 
     div>ul{
-        font-size: 20px;
+        font-size: 15px;
     }
 
     div>h2{
@@ -92,7 +92,7 @@
      }
      
      .skill-description{
-        width: 90%;
+        font-weight: bold;
      }
      .newSection-description{
         width: 90%;
